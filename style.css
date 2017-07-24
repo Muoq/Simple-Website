@@ -56,6 +56,7 @@ body {
   font-family: PT Sans, sans-serif;
   font-size: 20px;
   color: #7bb0c6;
+  color: #ed6c09;
   text-align: center;
 }
 
@@ -71,7 +72,7 @@ body {
   border-radius: 4px;
   font-size: 16px;
   font-family: Roboto, sans-serif;
-  color: #88c9e2;
+  color: #ed6c09;
   padding-left: 3px;
   padding-right: 3px;
   outline: none;
@@ -85,21 +86,22 @@ body {
 }
 
 .submit-btn {
-  height: 44px;
+  height: 48px;
   width: 120px;
   font-size: 28px;
   font-family: PT Sans, sans-serif;
+  font-weight: bold;
   text-decoration: none;
   background-color: transparent;
-  color: #508aa0;
-  border: 3px solid #508aa0;
+  color: #ed6c09;
+  border: 3px solid #c45703;
   border-radius: 5px;
   margin-left: 165px;
   outline: none;
 }
 
 .submit-btn:hover {
-  background-color: #508aa0;
+  background-color: #c45703;
   color: #2A5261;
 }
 
