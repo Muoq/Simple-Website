@@ -25,7 +25,7 @@ body {
   bottom: 0;
   left: 0;
 
-  background-image: radial-gradient(#5fb9cc, #d6f2f5);
+  background-image: radial-gradient(#7dcadb, #b9e1ea);
 }
 
 .main {
@@ -67,13 +67,14 @@ body {
   height: 30px;
   width: 200px;
   border: 2px solid #2d7e9e;
-  background-color: #d6f2fc;
+  background-color: #beecf7;
   border-radius: 4px;
   font-size: 16px;
   font-family: Roboto, sans-serif;
   color: #2d7e9e;
   padding-left: 3px;
   padding-right: 3px;
+  outline: none;
 }
 
 .input-div {
