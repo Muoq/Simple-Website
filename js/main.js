@@ -62,6 +62,12 @@ function main() {
 
   var signInButton = $('#sign-in-btn');
   signInButton.on('click', signInButtonOnClick);
+
+  $(document).on('keypress', function(e) {
+    if (e.which === 13) {
+      signInButtonOnClick();
+    }
+  });
 }
 
 $(document).ready(main);
