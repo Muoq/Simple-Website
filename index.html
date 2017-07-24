@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Hello World</title>
+    <link href="style.css" style="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="form-div">
+          <form class="login-input" id="login-form" action="./login-handler.js">
+            <div class="input-div" id="username-div">
+              <p class="login-labels">Username: </p>
+              <input id="username-input" type="text" name="username" class="input-field">
+            </div>
+            <div class="input-div" id="password-div">
+              <p id="password-label" class="login-labels">Password: </p>
+              <input type="password" name="password" class="input-field" id="password-input">
+            </div>
+          </form>
+          <button id="sign-in-btn" class="submit-btn">Sign In</button>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
